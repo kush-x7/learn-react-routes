@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
     <nav>
-      <Link to="/">click to go home</Link>
-      <Link to="/about">click to go about</Link>
+      <NavLink to="/">click to go home</NavLink>
+      <NavLink to="/about">click to go about</NavLink>
     </nav>
   );
 };
